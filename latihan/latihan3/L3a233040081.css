@@ -1,0 +1,18 @@
+body {
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: comic sans ms;
+    font-size: 60px;
+    color: darkblue;
+}
+
+h4 {
+    text-align: right;
+}
+
+p {
+    text-align: justify;
+}
