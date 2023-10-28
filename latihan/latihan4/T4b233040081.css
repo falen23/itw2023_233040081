@@ -139,6 +139,7 @@ table {
 body {
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
+    background-image: url(img/baground.jpg);
     color: #333;
 }
 
@@ -177,9 +178,9 @@ h1 {
 
 .hero {
     height: 300px;
-    background-image: url(img/forest.jpg);
+    background-image: url(img/valorant.jpg);
     background-size: cover;
-    background-position: 0 -200px;
+    background-position: 0 -70px;
     border-bottom: 5px solid lightskyblue;
     border-top: 5px solid salmon;
 }
@@ -211,4 +212,19 @@ h1 {
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+
+.content .contoh {
+    font-size: 10px;
+}
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #eaeaea;
+    text-align: center;
+    font-size: 12px;
 }

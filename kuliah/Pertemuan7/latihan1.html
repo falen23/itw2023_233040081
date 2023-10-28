@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 7 Latihan 1</title>
+</head>
+<style>
+    div {
+        width: 150px;
+        height: 150px;
+        margin: 50px auto;
+
+    }
+
+    .kotak1 {
+        background-color: lightblue;
+        background-image: url(matahari2.jpg);
+        background-size: cover;
+        border-radius: 50% 50% 50% 50%;
+        box-shadow: 10px 10px 50px 10px red;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .kotak2 {
+        background-image: url(logo\ instgram.jpg);
+        background-color: aqua;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        /* box-shadow: <x-offset> <y-offset> {size} <blur> <color>; */
+        box-shadow: 10px 10px 10px red, -10px -10px 10px green;
+        border-radius: 50px 50px 50px 50px;
+    }
+
+    .kotak2:hover {
+        border-radius: 90px 70px 20px 10px;
+        transform: rotate(750000deg);
+        transition: 5s;
+    }
+</style>
+
+<body>
+    <div class="kotak1"></div>
+    <div class="kotak2"></div>
+</body>
+
+</html>
