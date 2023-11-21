@@ -115,8 +115,9 @@ h1 {
     animation: slidedownfade .5s .5s forwards;
 }
 
-.overlay:target .next {
-    animation: fadeaja .5s, 5s forwards;
+.overlay:target .next,
+.overlay:target .prev {
+    animation: fadeajah .5s .5s forwards;
 }
 
 /* navigasi */
@@ -127,20 +128,19 @@ h1 {
     background-image: url(../img/next.png);
     position: absolute;
     text-indent: -9999px;
-    top: 44%;
-    margin-left: 30px;
-    opacity: ;
+    top: 45%;
+    margin-left: 40px;
+    opacity: 0;
 }
 
 .prev {
     background-image: url(../img/prev.png);
-    margin-left: -65px;
-
+    margin-left: -90px;
+    top: 46%;
 }
 
-
 /* animasi */
-@keyframes fadeaja {
+@keyframes fadeajah {
     0% {
         opacity: 0;
     }
